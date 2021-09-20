@@ -8,7 +8,6 @@ function onTabClick(item){
         let currentBtm = item;
         let tabId = currentBtm.getAttribute('data-tab');
         let currentTab = document.querySelector(tabId);
-        console.log('hi Olga');
 
         if (! currentBtm.classList.contains('active')){
             tabsBtm.forEach(function (item){
